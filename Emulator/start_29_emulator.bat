@@ -1,1 +1,1 @@
-emulator -avd API_29 -no-boot-anim > D:\WSL\log_29_emulator.txt 2>&1
+emulator -avd API_29 -no-boot-anim > D:\Workspace\Logs\log_29_emulator.txt 2>&1

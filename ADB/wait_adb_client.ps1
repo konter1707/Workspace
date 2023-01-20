@@ -1,0 +1,1 @@
+Get-Content D:\Workspace\Logs\log_adb_client.txt -wait | Where-Object { if ( $_ -match "listening on" ) { break } }

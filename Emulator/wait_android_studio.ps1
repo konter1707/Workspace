@@ -1,1 +1,0 @@
-Get-Content D:\WSL\log_android_studio.txt -wait | Where-Object { if ( $_ -match "Please override either one's getDisplayName()" ) { break } }

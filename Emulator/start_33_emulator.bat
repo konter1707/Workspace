@@ -1,1 +1,1 @@
-emulator -avd API_33 -no-boot-anim > D:\WSL\log_33_emulator.txt 2>&1
+emulator -avd API_33 -no-boot-anim > D:\Workspace\Logs\log_33_emulator.txt 2>&1

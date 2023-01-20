@@ -1,0 +1,1 @@
+Get-Content D:\Workspace\Logs\log_adb_server.txt -wait | Where-Object { if ( $_ -match "loaded new key from" ) { break } }

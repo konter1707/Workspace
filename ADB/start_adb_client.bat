@@ -1,1 +1,1 @@
-wsl -e bash -lic "sh /home/diskree-wsl/WSL/start_adb_client.sh" > D:\WSL\log_adb_client.txt 2>&1
+wsl -e bash -lic "sh /home/diskree-wsl/WSL/start_adb_client.sh" > D:\Workspace\Logs\log_adb_client.txt 2>&1
