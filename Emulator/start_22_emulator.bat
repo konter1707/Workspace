@@ -1,0 +1,1 @@
+emulator -avd API_22 -no-boot-anim > D:\WSL\log_22_emulator.txt 2>&1

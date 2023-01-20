@@ -1,0 +1,1 @@
+emulator -avd API_23 -no-boot-anim > D:\WSL\log_23_emulator.txt 2>&1

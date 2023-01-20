@@ -1,0 +1,1 @@
+WinWait, Android Emulator - API_27

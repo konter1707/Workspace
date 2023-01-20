@@ -1,0 +1,1 @@
+wsl -e bash -lic "rm -r /home/diskree-wsl/.cache/Google/AndroidStudio2021.3/caches"

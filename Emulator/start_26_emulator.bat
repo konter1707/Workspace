@@ -1,0 +1,1 @@
+emulator -avd API_26 -no-boot-anim > D:\WSL\log_26_emulator.txt 2>&1
