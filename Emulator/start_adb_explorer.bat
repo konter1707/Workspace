@@ -1,0 +1,1 @@
+wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\ADBFileExplorer\run.bat"
