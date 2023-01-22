@@ -1,1 +1,1 @@
-wsl -e bash -lic "sh /home/diskree-wsl/WSL/start_adb_client.sh" > D:\Workspace\Logs\log_adb_client.txt 2>&1
+wsl -e bash -lic "socat -d -d TCP-LISTEN:5037,reuseaddr,fork TCP:$(cat /etc/resolv.conf | tail -n1 | cut -d ' ' -f 2):5037"

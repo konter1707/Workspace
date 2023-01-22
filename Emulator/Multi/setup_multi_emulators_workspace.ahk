@@ -1,34 +1,22 @@
 WinClose, ahk_exe chrome.exe
 WinClose, ahk_exe chrome.exe
 
-Run, C:\Program Files\Google\Chrome\Application\chrome.exe --chrome-frame
+Run, C:\Program Files\Google\Chrome\Application\chrome.exe
 WinWait, New Tab - Google Chrome
 WinMove, -1920, 165
 WinMaximize New Tab - Google Chrome
 
-WinGet, id, List,,, Program Manager
-Loop, %id%
-{
-    IfMsgBox, NO, break
-    find_str := "vcxsrv"
-    this_id := id%A_Index%
-    WinGetClass, this_class, ahk_id %this_id%
-    WinGetTitle, this_title, ahk_id %this_id%
-    IfInString, this_class, %find_str%
-    {
-        WinWait, ahk_id %this_id%
-        WinMove, 0, 0
-        WinMaximize ahk_id %this_id%
-        WinMaximize ahk_id %this_id%
-    }
-}
+WinWait, iMe
+WinMove, 0, 0
+WinMaximize iMe
+WinMaximize iMe
 
 Run, D:\TelegramDesktop\Telegram.exe
 WinWait, Telegram
 WinMove, 2560, 162
 WinMove,,,,, 888, 1060
 
-Run, C:\Users\diskree\AppData\Local\slack\app-4.29.149\slack.exe
+Run, D:\Slack\Update.exe --processStart Slack.exe
 WinWait, ahk_exe slack.exe
 WinMove, 3446, 162
 WinMove,,,,, 1034, 1060
@@ -50,7 +38,7 @@ WinWait, Flipper
 WinMove, 3075, 162
 WinMaximize ahk_exe Flipper.exe
 
-Run, C:\Users\diskree\AppData\Local\Discord\app-1.0.9008\Discord.exe
+Run, D:\Discord\Update.exe --processStart Discord.exe
 WinWait, ahk_exe discord.exe
 WinMove, -1920, 165
 WinMaximize ahk_exe discord.exe
@@ -66,7 +54,7 @@ WinWait, Chatterino
 WinMove, 2560, 162
 WinMove,,,,, 470, 1050
 
-Run, C:\Program Files\Google\Chrome\Application\chrome.exe --chrome-frame --new-window "https://twitch.tv/directory/following"
+Run, C:\Program Files\Google\Chrome Beta\Application\chrome.exe "https://twitch.tv/directory/following"
 WinWait, Following - Twitch
 WinRestore, Following - Twitch
 WinMove, 3021, 162

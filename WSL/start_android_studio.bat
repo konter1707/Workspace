@@ -1,1 +1,1 @@
-wsl -e bash -lic "sh /home/diskree-wsl/android-studio/bin/studio.sh" > D:\Workspace\Logs\log_android_studio.txt 2>&1
+wsl -e bash -lic "sh /home/diskree-wsl/android-studio/bin/studio.sh /home/diskree-wsl/iMe"

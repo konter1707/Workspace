@@ -1,1 +1,1 @@
-emulator -no-audio -no-snapshot -port 5564 -avd API_27 -no-boot-anim > D:\Workspace\Logs\log_27_emulator.txt 2>&1
+emulator -no-audio -avd API_27 -no-boot-anim
