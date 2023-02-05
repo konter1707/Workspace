@@ -1,5 +1,4 @@
 call D:\Workspace\WSL\stop.bat
-call D:\Workspace\WSL\tweaks.bat
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\ADB\start_adb_server.bat"
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\Emulator\start_33_emulator.bat"
 start /wait D:\AHK\bin\AutoHotkey.exe "D:\Workspace\Emulator\wait_33_emulator.ahk"
