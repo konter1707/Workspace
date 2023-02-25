@@ -1,1 +1,1 @@
-wsl -e bash -lic "rm -r /home/diskree-wsl/.cache/Google/AndroidStudio*"
+wsl -e bash -lic "rm -r /home/marshmallow/.cache/Google/AndroidStudio*"
