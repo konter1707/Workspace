@@ -1,1 +1,1 @@
-wsl -e bash -lic "sh /home/diskree-wsl/android-studio/bin/studio.sh /home/marshmallow/iMe"
+wsl -e bash -lic "sh /home/marshmallow/android-studio/bin/studio.sh /home/marshmallow/iMe"
